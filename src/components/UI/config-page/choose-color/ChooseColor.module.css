@@ -1,0 +1,39 @@
+.heading{
+    color: #fff;
+    font: 300 26px/1.2 "Inter", sans-serif !important;
+}
+
+.white_king_button,
+.black_king_button {
+    position: relative;
+
+    width: 50px !important;
+    height: 50px !important;
+
+    border-radius: 0 !important;
+}
+
+.white_king_button {
+    border: 1px solid #fff;
+}
+.black_king_button:hover,
+.white_king_button:hover{
+    background-color: #2d4b2e !important;
+}
+
+.black_king_button:active,
+.white_king_button:active{
+    filter: brightness(0.9) !important;
+}
+
+.black_king_button {
+    border: 1px solid #424242;
+}
+
+.king_svg {
+    width: 25px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

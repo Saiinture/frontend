@@ -1,0 +1,32 @@
+.container{
+    background-color: #120925;
+}
+
+.play_button{
+    min-width: 600px;
+    width: 25vw !important;
+    height: 106px !important;
+
+    font: 600 49px/1.2 "Inter", sans-serif !important; 
+
+    border-radius: 30px !important;
+}
+.bots_container{
+
+}
+
+@media (max-width: 1024px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bots_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

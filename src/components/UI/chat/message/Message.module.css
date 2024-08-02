@@ -1,0 +1,20 @@
+.bot_message{
+    align-self: flex-start;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px 15px 15px 0;
+    padding: 10px;
+    word-break: break-word;
+}
+
+.user_message{
+    background-color: #4629F2;
+    color: #fff;
+    border-radius: 15px 15px 0 15px;
+    padding: 10px;
+    word-break: break-word;
+}
+
+.system{
+    display: none;
+}

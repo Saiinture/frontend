@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px auto;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "image name" "image title";
+    gap: 3px 10px;
+
+    align-items: center;
+    justify-items: start;
+    color: #dedede;
+
+    padding: 10px 0;
+
+    
+}
+
+.image{
+    grid-area: image;
+    width: 45px;
+    
+    border-radius: 50%;
+}
+
+.name{
+    grid-area: name;
+
+    font: 600 24px/1.2 "Inter", sans-serif;
+}
+
+.title{
+    grid-area: title;
+
+    font: 400 16px/1.2 "Inter", sans-serif;
+}

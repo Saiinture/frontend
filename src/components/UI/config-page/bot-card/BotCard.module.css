@@ -1,0 +1,67 @@
+.container{
+    cursor: pointer;
+
+    position: relative;
+
+    user-select: none;
+
+    color: #dedede;
+    background-color: #171717;
+    border-radius: 25px;
+
+    transition: background-color .3s ease;
+
+    width: 252px;
+    height: 300px;
+    
+}
+
+.info_button{
+    position: absolute !important;
+    top: 15px;
+    right: 15px;
+}
+
+.container:hover{
+    background-color: #1a2a3c !important;
+}
+
+.container:active{
+    background-color: #2d4b2e !important;
+}
+
+.image{
+    width: 146px;
+    height: 191px;
+}
+
+.heading{
+    font: 400 24px/1.2 "Roboto", sans-serif;
+}
+
+.text{
+    position: relative;
+    top: 1px;
+    text-transform: uppercase;
+    font: 800 16px/1.2 "Roboto", sans-serif;
+}
+
+@media (max-width: 800px){
+    .container{
+        width: 95%;
+        height: 200px;
+    }
+
+    .image{
+        width: 100px;
+        height: 131px;
+    }
+
+    .heading{
+        font: 400 18px/1.2 "Roboto", sans-serif;
+    }
+
+    .text{
+        font: 800 14px/1.2 "Roboto", sans-serif;
+    }
+}
